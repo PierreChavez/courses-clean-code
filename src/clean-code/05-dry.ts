@@ -39,7 +39,7 @@ class Product {
 }
 
 (() => {
-  const macbook = new Product("Macbook Pro", 100);
+  const macbook = new Product("Macbook Pro", 100, "M1");
 
   console.log(macbook.toString());
 })();
