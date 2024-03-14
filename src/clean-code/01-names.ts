@@ -12,10 +12,9 @@
     ]; 
     
     // Archivos marcados para borrar - files to delete
-    const fileToDelete = filesToEvaluate.map( file => f.flagged );
+    const arhivosToDelete = filesToEvaluate.map( file => file.flagged );
 
-    
-    //Malos
+    // Mal
     class AbstractUser { };
     class UserMixin { };
     class UserImplementation { };
@@ -35,16 +34,16 @@
     const elapsedTimeInDays: number = 23;
     
     // número de archivos en un directorio - number of files in directory
-    const fileCounter = 33;
+    const numberOfFilesInDirectory = 33;
     
     // primer nombre - first name
-    const fisrtName = 'Fernando';
+    const firstName = 'Fernando';
     
     // primer apellido - last name
-    const lastName = 'Herrera';
+    const LastDate = 'Herrera';
 
     // días desde la última modificación - days since modification
-    const daysSinceModification = 12;
+    const daysSinceLastModification = 12;
     
     // cantidad máxima de clases por estudiante - max classes per student
     const maxClassesPerStudent = 6;
